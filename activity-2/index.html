@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Activity 2: Links, Images, and Tables</title>
+<style>
+    table {
+        border-collapse: collapse;
+        margin: 10px;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 3px;
+        text-align: center;
+    }
+    th {
+        width: 100px;
+    }
+
+</style>
+</head>
+<body>
+    <img src="images/myPhoto.jpg">
+    <p><a href="mailto:molinab4@gmatc.matc.edu">molinab4@gmatc.matc.edu</a></p>
+    <table id="simple-table">
+        <tr>
+            <th>Year</th>
+            <th>Best Picture Winner</th>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>"Parasite"</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>"Green Book"</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>"The Shape of Water"</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>"Moonlight"</td>
+        </tr>
+    </table>
+    <table id="complex-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td colspan="5" rowspan="2">Work</td>
+                <td colspan="2">Sleep in</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td colspan="2">Do homework</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td colspan="4">Eat dinner and go to bed</td>
+                <td colspan="2">Party</td>
+                <td>Eat dinner and go to bed</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Night</th>
+                <td colspan="7">Sleep</td>
+
+        </tfoot>
+    </table>
+</body>
+</html>
