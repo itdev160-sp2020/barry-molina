@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial, helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+h1 {
+    font-family: stencil-std, sans-serif;
+    font-size: 4em;
+    color: rgb(245, 49, 49);
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    padding: .8em 0;
+    border: 2px solid black;
+    background-color: lightgrey;
+    background-image: url("../images/DarkSteel.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+    padding: .5em 0;
+    color: hsl(0, 60%, 44%);
+    font-size: 1.6em;
+}
+h3 {
+    color: blue;
+    padding-bottom: .5em;
+}
+h4 {
+    padding-bottom: .1em;
+}
+figcaption {
+    clear: both;
+    font-size: 3em;
+    text-align: center;
+    padding: .6em 0;
+    background-color: #cfcfcf;
+    border: 1px solid black;
+
+}
+p {
+    padding-bottom: 2em;
+}
+img {
+    width: 50%;
+    float: left;
+}
+.review {
+    width: 27%;
+    border: 1px solid black;
+    padding: 1.2em;
+    background-color: white;
+
+}
+.review p {
+    font-size: 90%;
+}
+.stars {
+    padding-left: .3em;
+    color: gold;
+}
+#product-description {
+    line-height: 1.9em;
+}
+#text {
+    padding: 2em 4em;
+}
+#reviews {
+    padding-top: .5em;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.4em;
+
+}
